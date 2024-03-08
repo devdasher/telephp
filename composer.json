@@ -1,0 +1,23 @@
+{
+    "name": "devdasher/telephp",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DevDasher\\TelePHP\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pooria Bashiri",
+            "email": "po.pooria@gmil.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "illuminate/collections": "^10.28",
+        "illuminate/support": "^10.28",
+        "guzzlehttp/guzzle": "^7.8"
+    }
+}
